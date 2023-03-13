@@ -22,7 +22,8 @@ html {
   text-align: center;
   font-size: clamp(1.25rem, 6.351vw + -0.393rem, 4.688rem);
   line-height: clamp(1.25rem, 5.485vw + -0.169rem, 4.219rem);
-  color: #01360D;
+  color: #003F0E;
+  
 }
 
 .page-wrapper > p > u {
@@ -33,6 +34,7 @@ html {
   cursor: pointer;
   font-style: normal;
   text-decoration: underline;
+
 }
 
 .note {
@@ -45,6 +47,7 @@ html {
 
 }
 
+
 .quote {
   font-size: clamp(1.5rem, 8.776vw + -0.771rem, 6.25rem);
   line-height: clamp(1.2rem, 7.598vw + -0.766rem, 5.313rem);
@@ -53,9 +56,10 @@ html {
 }
 
 .caption {
-  font-size: clamp(0.75rem, 0.924vw + 0.511rem, 1.25rem);
-  line-height: 0.9;
+  font-size: clamp(0.75rem, 0.462vw + 0.63rem, 1rem);
+  line-height: clamp(0.6rem, 0.37vw + 0.504rem, 0.8rem);
   font-family: Arial, Helvetica, sans-serif;
+  width: 90vw;
 }
 
 .img {
@@ -68,16 +72,13 @@ img {
   height: auto;
 }
 
-.hide {
-  ;
-}
-
 h1{
   top: 0;
   text-align: center;
   font-size: clamp(3.75rem, 13.857vw + 0.165rem, 11.25rem);
   line-height: clamp(3.188rem, 12.818vw + -0.129rem, 10.125rem);
   margin: 2vh;
+
 }
 
 footer{
@@ -89,9 +90,7 @@ footer{
   height: 85vh;
   display: grid;
   text-align: center;
-  color: #01360D;
-  /* background-image: linear-gradient(white, green); */
-
+  color: #003F0E;
 }
 
 .footnotes{
@@ -101,7 +100,7 @@ footer{
   padding-right: 5vw;
   font-size: clamp(0.75rem, 0.462vw + 0.63rem, 1rem);
   line-height: clamp(0.75rem, 0.462vw + 0.63rem, 1rem);
-  column-rule: 1.5px solid #01360D;
+  column-rule: 1.5px solid #003F0E;
 }
 
 .bibliography{
@@ -124,7 +123,7 @@ footer{
   font-size: clamp(0.75rem, 1.617vw + 0.332rem, 1.625rem);
   line-height: 1; 
   padding-bottom: 1vh;
-  column-rule: 1.5px solid #01360D;
+  column-rule: 1.5px solid #003F0E;
 }
 
 .num{
